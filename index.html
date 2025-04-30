@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Миграция на Tailwind</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Миграция Svelte → Tailwind</h1>
+
+    <!-- Переключатель режима -->
+    <div class="mode-selector" id="select-mode"> <!-- ← Добавлен ID -->
+        <label>
+            <input type="radio" name="mode" value="directory" checked>
+            Выбрать директорию
+        </label>
+        <label>
+            <input type="radio" name="mode" value="file">
+            Выбрать файлы
+        </label>
+        <small id="file-mode-hint" style="display: none; color: #666">
+            Можно выбрать несколько файлов (удерживая Ctrl/Cmd)
+        </small>
+    </div>
+
+    <!-- Кнопки -->
+    <button id="select-path">Выбрать путь</button>
+    <button id="start-migration">Начать миграцию</button>
+
+    <!-- Отображение выбранных путей -->
+    <pre id="selected-paths"></pre>
+    <div id="status"></div>
+
+    <!-- Логи -->
+    <pre id="logs"></pre>
+</div>
+<script src="renderer.js"></script>
+</body>
+</html>
