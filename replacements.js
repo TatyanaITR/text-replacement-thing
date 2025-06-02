@@ -284,4 +284,5 @@ module.exports = [
     { from: 'mh-100vh', to: 'min-h-screen' },
     { from: 'rotate-z-270', to: 'rotate-270' },
     { from: 'text-ellipsis', to: 'overflow-hidden text-ellipsis' },
+    { from: 'border-gray-10', to: 'border-1 border-gray-10' },
 ];
