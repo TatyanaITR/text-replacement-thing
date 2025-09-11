@@ -12,12 +12,11 @@ function createWindow() {
             preload: path.join(__dirname, 'preload.js'),
             contextIsolation: true,
             nodeIntegration: false,
-            devTools: true // ← Включаем DevTools
+            devTools: false
         }
     });
 
     mainWindow.loadFile('index.html');
-    mainWindow.webContents.openDevTools(); // ← Включаем DevTools при старте
 
     mainWindow.on('closed', () => mainWindow = null);
 }

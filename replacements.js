@@ -283,4 +283,13 @@ module.exports = [
     { from: 'border-gray-10', to: 'border-1 border-gray-10' },
     { from: 'mobile-only-visible', to: 'md:hidden' },
     { from: 'tablet-only-visible', to: 'hidden md:flex' },
+    { from: 'tablet-only-visible', to: 'hidden md:flex' },
+    { from: 'md-flex-row', to: 'md:flex-row' },
+    { from: 'md-items-center', to: 'md:items-center' },
+    { from: 'md-order-0', to: 'md:order-0' },
+    { from: 'md-text-left', to: 'md:text-left' },
+    { from: 'md-w-auto', to: 'md:w-auto' },
+    { from: 'md-flex', to: 'md:flex' },
+    { from: 'lg-flex-row', to: 'lg:flex-row' },
+    { from: 'xl-flex-row', to: 'xl:flex-row' }
 ];
