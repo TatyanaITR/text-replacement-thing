@@ -291,5 +291,7 @@ module.exports = [
     { from: 'md-w-auto', to: 'md:w-auto' },
     { from: 'md-flex', to: 'md:flex' },
     { from: 'lg-flex-row', to: 'lg:flex-row' },
-    { from: 'xl-flex-row', to: 'xl:flex-row' }
+    { from: 'xl-flex-row', to: 'xl:flex-row' },
+    { from: 'form-section-header-wrapper', to: 'flex justify-between' },
+    { from: 'form-section-header', to: 'text-base/6.5 font-medium' }
 ];
