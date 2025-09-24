@@ -293,5 +293,6 @@ module.exports = [
     { from: 'lg-flex-row', to: 'lg:flex-row' },
     { from: 'xl-flex-row', to: 'xl:flex-row' },
     { from: 'form-section-header-wrapper', to: 'flex justify-between' },
-    { from: 'form-section-header', to: 'text-base/6.5 font-medium' }
+    { from: 'form-section-header', to: 'text-base/6.5 font-medium' },
+    { from: 'info-card-header', to: 'text-lg/5.5 font-medium' }
 ];
